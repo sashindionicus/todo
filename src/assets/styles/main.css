@@ -1,0 +1,23 @@
+body{
+    background: rgb(87,108,255);
+    background: linear-gradient(90deg, rgba(87,108,255,1) 35%, rgba(175,84,255,1) 100%);
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #000;
+    border: none;
+    max-width: 400px;
+  }
+  .todos li{
+    background: #fff;
+    color: #000;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  .filtered{
+    display: none !important;
+  }
